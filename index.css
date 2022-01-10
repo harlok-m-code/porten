@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;   
+}
+
+
+/*Header*/
+.header{
+    width: 1920px;
+    background-color: #0F0F0F;;
+}
+
+.h-content{
+  width: 1920px;
+  background-color: #000000;  
+  vertical-align: middle;
+}
+
+.info{
+    width: 1300px;
+    height: 44px;
+    margin: 0 auto;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p {
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.info p a {
+    text-decoration: none;
+    color: white;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.bar h1 {
+    display: inline-block;
+
+    font-size: 36px;
+    font-family: 'Vujahday Script', cursive;
+    color: white;
+}
+
+.bar-li {
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.bar-li p {
+    background-color: #0F0F0F;
+
+
+    display: inline-block;
+    width: 136px;
+    height: 80px;
+
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 14px;
+    
+    line-height: 80px;
+}
+
+.bar-li p:hover {
+    background-color: #1F1F1F;
+}
+/*Main*/
+
+.main{
+
+}
+
+.m-content{
+
+}
+
+.porten {
+    width: 1920px;
+    height: 810px;
+
+    padding-top: 160px;
+
+    background-image: url("./img/Rectangle\ 3.png");
+}
+
+.screen{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 60px;
+
+    width: 320px;
+    height: 320px;
+
+    border: 1px solid white;
+
+}
+
+.screen h1 {
+    margin: 0;
+
+    width: 220px;
+
+    font-size: 54px;
+    line-height: 86px;
+    color: white;
+
+    border-bottom: 3px solid white;
+}
+
+.screen h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.port-text {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 630px;
+    height: 96px;
+
+    color: white;
+}
+
+.complect {
+    width: 1920px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.clocks{
+    display: inline-block;
+    width: 1040px;
+    height: 730px;
+
+    background-color: #000000;
+}
+.clocks h1 {
+    margin: 0;
+
+    position: absolute;
+    top: 1050px;
+    left: 410px;
+
+    color: white;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+
+.clock {
+    position: relative;
+    margin-top: 212px;
+    margin-left: 65px;
+
+    display: inline-block;
+    width: 260px;
+    height: 325px;
+    
+    background-color: #191B1C;
+}
+
+.clock h3 {
+    
+    color: white;
+    position: absolute;
+
+    top: 350px;
+}
+
+.clock img {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.clock p {
+    position: absolute;
+
+    top: 380px;
+
+    color: white;
+}
+
+
+.man {
+    display: inline-block;
+
+    width: 880px;
+    height: 730px;
+    background-image:url("./img//Rectangle\ 8.png");
+
+}
+
+.group {
+    width: 376px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.group h1 {
+    font-size: 36px;
+    color: white;
+
+    border-bottom: 2px solid white;
+}
+
+.group p {
+    width: 100px;
+    padding: 5px 10px;
+
+    text-align: center;
+    border: 1px solid white;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+
+.coll {
+    margin: 0;
+    width: 1920px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-s {
+    margin: 0;
+
+    display: inline-block;
+    width: 880px;
+    height: 600px;
+}
+
+.image-s img {
+    margin: 0;
+    padding: 0;
+}
+
+.collection {
+    margin: 0;
+
+    display: inline-block;
+
+    width: 1040px;
+    height: 600px;
+
+    background-color: #000;
+
+
+}
+
+.collection h1 {
+    padding-top: 110px;
+    margin: 0;
+
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Vujahday Script', cursive;
+
+    border-bottom: 2px solid #fff;
+}
+
+.collection p {
+    margin: 0 auto;
+    margin-top: 60px;
+
+    width: 470px;
+    color: white;
+    text-align: center;
+}
+
+.receipts{
+    margin: 0;
+    width: 1920px;
+    background-color: #000;
+}
+
+.cloc {
+    margin: 0 auto;
+
+    padding-top: 160px;
+    width: 1140px;
+    padding-bottom: 150px;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.cloc h1 {
+    margin: 0;
+    padding-bottom: 120px;
+
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.clo {
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 260px;
+    height: 325px;
+
+    display: inline-block;
+    background-color: #191B1C;
+
+    color: white;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    width: 1920px;
+    font-size: 36px;
+    color: white;
+}
+
+.f-div{
+    width: 1920px;
+    background-image: url("./img/Rectangle\ 15.png");
+}
+
+.f-elem{
+    margin: 0 auto;
+    width: 1050px;
+    height: 400px;
+    
+}
+
+.f-elem h1{
+    margin: 0;
+}
+
+
+.about-shop{
+    margin-top: 100px;
+
+    display: inline-block;
+
+    width: 350px;
+    height: 260px;
+}
+
+.about-shop h1 {
+    /* padding-top: 50px; */
+}
+.categories{
+    margin-left: 18px;
+
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    top: -58px;
+
+}
+.categories h1{
+    padding-bottom: 35px;
+}
+
+.categories p {
+    display:inline-block;
+    
+    padding: 17px;
+    margin: 0;
+    margin-top: 5px;
+
+    font-size: 14px;
+    background-color: #000;
+    
+}
+
+.categories p:hover{
+    background-color: rgb(131, 131, 131);
+    transition: background 0.5s linear;
+}
+.mailing{
+    margin-left: 20px;
+    display: inline-block;
+    width: 350px;
+
+    position: relative;
+    top: -2px;
+
+    color: white;
+}
+
+
+.inp {
+    padding: 8px 5px;
+    opacity: 0.5;
+}
+
+.podpiska {
+    width: 170px;
+    height: 40px;
+
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.podpiska:hover {
+    background-color: rgb(71, 70, 70);
+    transition: background 0.5s linear;
+}
